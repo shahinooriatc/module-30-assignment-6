@@ -113,7 +113,16 @@ searchBtn.addEventListener('click', function () {
   const search = document.getElementById('search');
   getImages(search.value)
   sliders.length = 0;
+
 })
+// Enter Key Work for ... Search box
+let input = document.getElementById("search");
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("search-btn").click();
+    }
+});
 
 sliderBtn.addEventListener('click', function () {
   createSlider()
