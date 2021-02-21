@@ -1,3 +1,5 @@
+/* /Mega menu for first search/ */
+
 #sliders {
   height: 400px;
   width: 60%;
@@ -27,7 +29,7 @@ img {
   height: 400px;
   object-fit: cover;
 }
-img:hover{
+img:hover {
   box-shadow: 5px 5px 15px;
 }
 .prev-next {
@@ -38,7 +40,8 @@ img:hover{
   cursor: pointer;
 }
 
-.prev, .next {
+.prev,
+.next {
   background-color: transparent;
   padding: 8px 10px;
   color: #fff;

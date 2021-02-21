@@ -43,7 +43,6 @@
         <button id="create-slider" class="btn btn-primary px-5">Create slider</button>
       </div>
       <div id="image-gallery" class="row gallery">
-
       </div>
     </section>
     <!-- slider -->
@@ -59,6 +58,18 @@
   </div>
   <!-- Optional JavaScript -->
   <script src="./app.js"></script>
+  <script>
+    // Dropdown Menu Fade    
+    // Dropdown Menu Fade    
+    jQuery(document).ready(function () {
+      $(".dropdown").hover(
+        function () {
+          $('.dropdown-menu', this).fadeIn("fast");
+        },
+        function () {
+          $('.dropdown-menu', this).fadeOut("fast");
+        });
+    });
+  </script>
 </body>
-
 </html>
